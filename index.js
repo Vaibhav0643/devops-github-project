@@ -8,6 +8,15 @@ app.get("/", (req, res) => {
     });
 });
 
+// 🆕 New Feature: Health check route
+app.get("/status", (req, res) => {
+    res.json({
+        status: "Server is running smoothly ✅",
+        uptime: process.uptime().toFixed(2) + " seconds",
+        timestamp: new Date().toISOString()
+    });
+});
+
 app.listen(port, () => {
 	console.log(`Example app listening on port ${port}`);
 });
