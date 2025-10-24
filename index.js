@@ -17,6 +17,11 @@ app.get("/status", (req, res) => {
     });
 });
 
+// Added a simple test route from dev branch
+app.get("/test", (req, res) => {
+    res.json({ message: "Test route from dev branch ⚙️" });
+});
+
 app.listen(port, () => {
 	console.log(`Example app listening on port ${port}`);
 });
