@@ -17,6 +17,11 @@ app.get("/status", (req, res) => {
     });
 });
 
+// 🧪 Test Route for Merge Behavior
+app.get("/test", (req, res) => {
+    res.json({
+        message: "This is a test route added from feature branch 🧪"
+    });
 // Added a simple test route from dev branch
 app.get("/test", (req, res) => {
     res.json({ message: "Test route from dev branch ⚙️" });
