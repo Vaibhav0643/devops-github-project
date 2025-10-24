@@ -17,6 +17,13 @@ app.get("/status", (req, res) => {
     });
 });
 
+// 🧪 Test Route for Merge Behavior
+app.get("/test", (req, res) => {
+    res.json({
+        message: "This is a test route added from feature branch 🧪"
+    });
+});
+
 app.listen(port, () => {
 	console.log(`Example app listening on port ${port}`);
 });
