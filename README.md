@@ -41,6 +41,18 @@ The objective is to practice branch management, pull requests, merge conflict re
 
 ---
 
+## 📸 Screenshots
+
+Below are screenshots of the successful pipeline run:
+
+1. **Creating Pull Request**
+2. **Merging Pull Request**
+3. **Resolve merge conflicts**
+
+*(Screenshots are included in the [`Screenshots/`](./Screenshots) folder in main branch.)*
+
+---
+
 ## Key Learnings
 - How to **create and manage branches** for DevOps workflows.
 - How **pull requests** work and where PR titles/descriptions appear.
